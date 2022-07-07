@@ -681,9 +681,6 @@ audio {
         display: none;
     }
 
-
-}
-
     #playlist_topo {
         grid-template-rows: min-content min-content ;
         grid-template-columns: min-content min-content min-content ;
@@ -694,7 +691,10 @@ audio {
             width: max-content;
         
         }
-        
 
 
 }
+
+        
+    
+
