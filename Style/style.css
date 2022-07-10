@@ -675,25 +675,6 @@ audio {
 
 
 
-@media screen and (max-width :500px) {
-
-    .media_query_2 {
-        display: none;
-    }
-
-    #playlist_topo {
-        grid-template-rows: min-content min-content ;
-        grid-template-columns: min-content min-content min-content ;
-    }
-
-
-        .albums {
-            width: max-content;
-        
-        }
-
-
-}
 
         
     
