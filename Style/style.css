@@ -283,7 +283,7 @@ section h2 {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 20px;
-    min-width: 1000px;
+    min-width: 1500px;
 }
 
 .title a:hover {
@@ -674,6 +674,11 @@ audio {
         grid-template-rows: min-content min-content ;
         grid-template-columns: 320px 320px 320px ;
     }
+
+    .title {
+        min-width: 1000px;
+    }
+    
 
 
 }
