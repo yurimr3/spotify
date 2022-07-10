@@ -670,24 +670,17 @@ audio {
         display: none;
     }
 
-}
-
-
-
-
-@media screen and (max-width :1000px) {
-
     #playlist_topo {
         grid-template-rows: min-content min-content ;
-        grid-template-columns: min-content min-content min-content ;
+        grid-template-columns: 320px 320px 320px ;
     }
 
 
-
-
 }
 
-        
+
+
+
     
 
 
