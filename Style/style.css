@@ -672,7 +672,17 @@ audio {
 
 }
 
+@media screen and (max-width :500px) {
 
+    #playlist_topo {
+        grid-template-rows: min-content min-content ;
+        grid-template-columns: min-content min-content min-content ;
+    }
+
+
+
+
+}
 
 
 
