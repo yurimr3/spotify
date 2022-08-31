@@ -199,12 +199,15 @@ header {
 /* PLAYLIST TOPO */
 
 
+h1{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
 #playlist_topo {
-    display: grid;
-    grid-template-rows: min-content min-content  ;
-    grid-template-columns: 33% 33% 33%;
+    display: flex;
     margin-bottom: 23px;
-    margin-top: 90px;
 
 }
 
@@ -235,18 +238,19 @@ section h2 {
 }
 
 .div_playlist_topo {
+    width: 550px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 17px;
     margin-right: 17px;
 
-
     background-color: #282828;
     border: hidden;
     border-radius: 5px;
 
 }
+
 
 #circle {
 
@@ -319,6 +323,7 @@ section h2 {
     padding: 17px;
     border-radius: 8px;
     max-width: min-content;
+    height: 300px;
 
 }
 
@@ -670,22 +675,13 @@ audio {
         display: none;
     }
 
-    #playlist_topo {
-        grid-template-rows: min-content min-content ;
-        grid-template-columns: 320px 320px 320px ;
+    .div_playlist_topo{
+        width: 300px;
     }
-
     .title {
         min-width: 1000px;
     }
-    
+
 
 
 }
-
-
-
-
-    
-
-
