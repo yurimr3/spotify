@@ -263,7 +263,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 56px;
+    min-width: 56px;
     height: 56px;
     background-color: #1ed760;
     border-radius: 50px;
@@ -282,7 +282,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 80%;
+    gap: 30px;
 }
 
 #title_time span {
@@ -319,12 +319,14 @@ li {
 
 
 #musics {
+    position: relative;
     padding: 10px;
     padding-right: 30px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    min-width: max-content;
 }
 
 .artist_music{
@@ -470,7 +472,6 @@ footer {
     opacity: 1;
     transition: 100ms;
 }
-
 
 
 
