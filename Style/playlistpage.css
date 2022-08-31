@@ -686,3 +686,21 @@ audio {
     max-height: 20px;
 }
 
+@media screen and (max-width :1300px) {
+    #hr_sec{
+        width: 100vw;
+    }
+
+    #title_time {
+        width: 94vw;
+    }
+
+    #musics{
+
+        width: 100vw;
+    }
+    
+
+
+}
+
